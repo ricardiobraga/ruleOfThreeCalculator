@@ -132,3 +132,14 @@ span{
     
 }
 
+@media (min-width: 400px) {
+  
+    .app {
+        border-radius: 10px;        
+        border: 1px solid tomato;
+        width: 200px;
+        padding: 15px;
+    }
+
+    }
+
