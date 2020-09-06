@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    background: rgb(49, 51, 71);
+    box-sizing: border-box;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: turquoise;
+} 
+
+::selection {
+    background: turquoise;
+    color: tomato;
+}
+
+main {  
+    height: 100vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.content {
+    align-self: center;  
+    text-align: left;     
+    
+}
+
+.titulo {
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
+
+.app {
+    border-radius: 10px;
+    
+    border: 1px solid tomato;
+    width: 450px;
+    padding: 15px;
+}
+
+input {
+    outline: none;
+    border: 1px solid tomato;
+
+    text-align: center;
+
+    width: 160px;
+    height: 30px;
+    
+}
+
+.inputAB{
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputCX {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 20px;
+}
+
+
+.inputX {
+    border: 1px solid tomato;
+    width: 160px;
+    height: 30px;
+    text-align: center;
+    font-weight: 400;
+    
+    
+}
+
+
+
+
+span{
+    margin: 0 10px;
+}
+
+.resultado {
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+.btnCalcular {
+    
+    border-bottom-right-gitradius: 10px;
+    border: 1px solid turquoise;
+
+    width: 90px;
+    
+    padding: 5px 10px;
+    align-content: center;
+    margin-left: 10px;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+    
+    
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+    
+}
+
+.btnCalcular:hover {
+    border: 1px solid turquoise;
+    border-bottom-right-radius: 0px;   
+    color: tomato;
+}
+
+
+
+.valorResultado {
+    width: 60px;
+    border: 1px solid turquoise;
+    border-top-left-radius: 10px;
+    padding: 5px 10px;
+    align-content: center;
+
+    text-align: center;
+    
+}
+
