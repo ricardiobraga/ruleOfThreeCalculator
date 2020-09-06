@@ -44,6 +44,7 @@ input {
     outline: none;
     border: 1px solid tomato;
 
+    font-size: 16px;
     text-align: center;
 
     width: 160px;
@@ -156,6 +157,11 @@ span{
         height: 30px;
         
     }
+
+    input:focus {
+        font-size: 16px;
+        
+      }
 
     .inputX {
         border: 1px solid tomato;
