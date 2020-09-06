@@ -6,7 +6,7 @@
         <img src="https://github.com/ricardiobraga/ruleOfThreeCalculator/blob/master/calcRegraDeTres.png">
     </div>
     
-  ### Projeto de aplicação para cálculo de regra de três feito para estudo utilizando html, css e javascript.
+  #### Projeto de aplicação para cálculo de regra de três feito para estudo utilizando html, css e javascript.
 
 
   #### link para site:
