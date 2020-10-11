@@ -114,6 +114,12 @@ span{
     
 }
 
+.btnReset:hover {
+    border: 1px solid turquoise;
+    border-bottom-right-radius: 0px;   
+    color: tomato;
+}
+
 .btnCalcular {
     
     border-bottom-right-radius: 10px;

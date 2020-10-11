@@ -32,7 +32,8 @@ function regraDeTres(){
 
 function reset(){
     
-    inputA.value = "teste"
-    inputB.value = "teste"
-    inputC.value = "teste"
+    inputA.value = ""
+    inputB.value = ""
+    inputC.value = ""
+    valorResultado.innerHTML = 0
 }
