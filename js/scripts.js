@@ -19,7 +19,7 @@ function regraDeTres(){
 
     let result = (inputB.value * inputC.value) / inputA.value
 
-    valorResultado.innerHTML = result
+    valorResultado.innerHTML = result.toFixed(2)
     // valorResultado.value.innerHTML = result
     console.log(valorResultado)
 
