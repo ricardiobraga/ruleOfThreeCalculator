@@ -1,4 +1,5 @@
 let btnCalcular = document.querySelector('[btnCalcular]')
+let btnReset = document.querySelector('[btnReset]')
 let valorResultado = document.querySelector('[valorResultado]')
 
 let inputA = document.querySelector('[inputA]')
@@ -13,6 +14,10 @@ btnCalcular.onclick = function(){
     regraDeTres()
 }
 
+btnReset.onclick = function(){
+    reset()
+}
+
 function regraDeTres(){
     //inputB * inputC / inputA
 
@@ -23,4 +28,11 @@ function regraDeTres(){
     // valorResultado.value.innerHTML = result
     console.log(valorResultado)
 
+}
+
+function reset(){
+    
+    inputA.value = "teste"
+    inputB.value = "teste"
+    inputC.value = "teste"
 }

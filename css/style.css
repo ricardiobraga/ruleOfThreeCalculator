@@ -89,6 +89,31 @@ span{
     align-content: center;
 }
 
+.btnReset {
+    
+    border-bottom-right-radius: 10px;
+    border: 1px solid turquoise;
+
+    width: 70px;
+    
+    padding: 5px 10px;
+    align-content: center;
+    margin-left: 10px;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+    
+    
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+    
+}
+
 .btnCalcular {
     
     border-bottom-right-radius: 10px;
@@ -171,6 +196,10 @@ span{
         font-weight: 400;
         
         
+    }
+
+    .resultado {
+        justify-content: space-between;
     }
 
     }
