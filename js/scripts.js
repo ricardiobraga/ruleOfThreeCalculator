@@ -10,6 +10,14 @@ let inputX = document.querySelector('[inputX]')
 let numero = 10
 
 
+document.addEventListener('keydown', function(event) {
+    if(event.keyCode == 13) {
+        regraDeTres()
+    }
+
+})
+
+
 btnCalcular.onclick = function(){
     regraDeTres()
 }
