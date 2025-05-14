@@ -1,6 +1,7 @@
 let btnCalcular = document.querySelector('[btnCalcular]')
 let btnReset = document.querySelector('[btnReset]')
 let valorResultado = document.querySelector('[valorResultado]')
+let btnSwitch = document.querySelector('.btn-switch')
 
 let inputA = document.querySelector('[inputA]')
 let inputB = document.querySelector('[inputB]') 
@@ -22,6 +23,9 @@ btnCalcular.onclick = function(){
     regraDeTres()
 }
 
+btnSwitch.onclick = function(){
+    switchValues();
+}
 btnReset.onclick = function(){
     reset()
 }
@@ -38,10 +42,15 @@ function regraDeTres(){
 
 }
 
-function reset(){
-    
+function reset(){    
     inputA.value = ""
     inputB.value = ""
     inputC.value = ""
     valorResultado.innerHTML = 0
+}
+function switchValues(){ 
+    let a = inputA.value;
+    let b = inputB.value;    
+    inputA.value = b;
+    inputB.value = a;
 }

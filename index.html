@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;1,400&display=swap"
+        rel="stylesheet">
     <title>Calcudora regra de três</title>
 </head>
 
@@ -13,27 +14,35 @@
     <header></header>
     <main>
         <div class="content">
-        
-        <div class="app">
-        <div class="inputAB">
-            <input type="number" inputA placeholder="valor 1">
-            <span> está para </span>
-            <input type="number" inputB placeholder="valor 2">
-        </div>
-        <div class="inputCX">
-            <input type="number" inputC placeholder="valor 3">
-            <span>está para</span>
-            <div class="inputX">X</div>
-        </div>
-        <div class="resultado" resultado>
-            <div class="valorResultado" valorResultado></div>
-            <a class="btnReset" btnReset>reset</a>
-            <a class="btnCalcular" btnCalcular>calcular</a>
-            
 
+            <div class="app">
+                <div class="inputAB">
+                    <input type="number" inputA placeholder="valor 1">
+                    <span> está para </span>
+                    <input type="number" inputB placeholder="valor 2">
+                </div>
+                <div class="btn-switch-container">
+                    <button class="btn-switch">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path fill="currentColor"
+                                d="M14.293 2.293a1 1 0 0 1 1.414 0l4 4a1 1 0 0 1 0 1.414l-4 4a1 1 0 0 1-1.414-1.414L16.586 8H5a1 1 0 0 1 0-2h11.586l-2.293-2.293a1 1 0 0 1 0-1.414m-4.586 10a1 1 0 0 1 0 1.414L7.414 16H19a1 1 0 1 1 0 2H7.414l2.293 2.293a1 1 0 0 1-1.414 1.414l-4-4a1 1 0 0 1 0-1.414l4-4a1 1 0 0 1 1.414 0" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="inputCX">
+                    <input type="number" inputC placeholder="valor 3">
+                    <span>está para</span>
+                    <div class="inputX">X</div>
+                </div>
+                <div class="resultado" resultado>
+                    <div class="valorResultado" valorResultado></div>
+                    <a class="btnReset" btnReset>reset</a>
+                    <a class="btnCalcular" btnCalcular>calcular</a>
+
+
+                </div>
+            </div>
         </div>
-    </div>
-</div>
     </main>
     <footer></footer>
     <script src="js/scripts.js"></script>

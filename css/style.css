@@ -60,8 +60,7 @@ input {
 .inputCX {
     display: flex;
     justify-content: space-between;
-
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 
 
@@ -89,7 +88,7 @@ span{
     align-content: center;
 }
 
-.btnReset {
+.btnReset{
     
     border-bottom-right-radius: 10px;
     border: 1px solid turquoise;
@@ -114,13 +113,32 @@ span{
     
 }
 
-.btnReset:hover {
+.btnReset:hover, .btn-switch:hover {
     border: 1px solid turquoise;
     border-bottom-right-radius: 0px;   
     color: tomato;
+
+    & path {
+        fill: tomato;
+    }
 }
 
-.btnCalcular {
+.btn-switch-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.btn-switch {
+    display: flex;
+    justify-content: center;
+     & path {
+        transition: all 0.2s ease;
+    }
+}
+
+.btnCalcular, .btn-switch   {
     
     border-bottom-right-radius: 10px;
     border: 1px solid turquoise;
